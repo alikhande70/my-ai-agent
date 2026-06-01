@@ -1,8 +1,17 @@
 # My AI Agent
 
-A simple autonomous AI agent built with Python and Grok API / OpenAI.
+A production-ready autonomous AI agent built with Grok.
 
-## Setup
-1. `pip install -r requirements.txt`
-2. Set `GROK_API_KEY` or `OPENAI_API_KEY`
-3. Run `python agent.py`
+## Features
+- Task execution
+- Tool integration
+- Logging and error handling
+- Configuration management
+
+## Installation
+```bash
+git clone https://github.com/alikhande70/my-ai-agent.git
+cd my-ai-agent
+pip install -r requirements.txt
+cp .env.example .env
+```
