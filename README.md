@@ -1,8 +1,21 @@
-# My AI Agent
+# My Advanced AI Agent
 
-A simple autonomous AI agent built with Python and Grok API / OpenAI.
+A **production-grade**, multi-agent AI system built with LangGraph, LangChain, and Grok/xAI.
 
-## Setup
-1. `pip install -r requirements.txt`
-2. Set `GROK_API_KEY` or `OPENAI_API_KEY`
-3. Run `python agent.py`
+## ✨ Features
+- Multi-Agent Supervisor with intelligent routing
+- Persistent Memory & Vector Store
+- Specialized Agents (Researcher, Coder, Analyst)
+- Rich Tool Ecosystem
+- Production-ready logging and error handling
+
+## 🚀 Quick Start
+```bash
+git clone https://github.com/alikhande70/my-ai-agent.git
+cd my-ai-agent
+pip install -e .
+cp .env.example .env
+python main.py
+```
+
+Built with excellence.
