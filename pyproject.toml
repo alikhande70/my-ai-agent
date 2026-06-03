@@ -1,0 +1,12 @@
+[project]
+name = "my-ai-agent"
+version = "0.1.0"
+description = "Production Grade AI Agent"
+requires-python = ">=3.10"
+dependencies = [
+    "langgraph", "langchain", "langchain-openai", "langchain-community",
+    "langchain-groq", "python-dotenv", "rich", "duckduckgo-search"
+]
+
+[tool.setuptools]
+packages = ["src"]
